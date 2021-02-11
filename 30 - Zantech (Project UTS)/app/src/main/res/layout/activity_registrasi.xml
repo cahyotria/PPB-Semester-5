@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#023e8a"
+    tools:context=".RegistrasiActivity"
+    >
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"
+           android:padding="5dp"
+           >
+           <ImageView
+               android:layout_width="40dp"
+               android:layout_height="40dp"
+               android:src="@drawable/registrasi"
+               android:layout_marginLeft="50dp"
+               />
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="R E G I S T R A S I"
+               android:fontFamily="@font/pextrabold"
+               android:layout_marginLeft="5dp"
+               android:textAlignment="center"
+               android:layout_marginTop="3dp"
+               android:textSize="23dp"
+               android:textColor="#F4EBD9"
+               />
+       </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA LENGKAP"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="#F4EBD9"
+            />
+
+        <EditText
+            android:id="@+id/editNamaLengkapRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:textColor="#F4EBD9"
+            android:textSize="13dp"
+            />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="#F4EBD9"
+            />
+
+        <EditText
+            android:id="@+id/editUsernameRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:textColor="#F4EBD9"
+            android:textSize="13dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PASSWORD"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/pmedium"
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:textColor="#F4EBD9"
+            />
+
+        <EditText
+            android:id="@+id/editPasswordRegis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:textColor="#F4EBD9"
+            android:inputType="textPassword"
+            android:textSize="13dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="20dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/btnRegistasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Registrasi"
+                android:fontFamily="@font/pmedium"
+                android:textColor="#151515"
+                android:background="#caf0f8"
+                />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="Back"
+                android:fontFamily="@font/pmedium"
+                android:textColor="#151515"
+                android:background="#caf0f8"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_toast"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0c54c9"
+        android:fontFamily="@font/pbold"
+        android:text="Toast"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:onClick="showToast"
+        />
+
+    <TextView
+        android:id="@+id/show_count"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="#f5ec42"
+        android:fontFamily="@font/pbold"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#524747"
+        android:textSize="90sp" />
+
+    <Button
+        android:id="@+id/button_count"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0c54c9"
+        android:fontFamily="@font/pbold"
+        android:text="COUNT"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:onClick="countUp"
+        />
+
+    <Button
+        android:id="@+id/button_reset"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#0c54d9"
+        android:fontFamily="@font/pbold"
+        android:text="RESET"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="2dp"
+        android:onClick="resetUp"
+        />
+
+
+</LinearLayout>

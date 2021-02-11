@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/labelMyAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_alarm"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:fontFamily="@font/pmedium"
+        android:padding="5dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:id="@+id/subLabelMyAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sub_label_alarm"
+        android:fontFamily="@font/plight"
+        android:textSize="13dp"
+        android:padding="5dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        />
+    <AnalogClock
+        android:id="@+id/analog"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/buttonSetAlarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@android:drawable/ic_lock_idle_alarm"
+        android:text=" Set Alarm"
+        />
+
+    <TextView
+        android:id="@+id/alarm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/pregular"
+        />
+
+    <TextView
+        android:id="@+id/tv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pregular"
+        android:text="Set Alarm Again"
+        android:padding="5dp"
+        />
+
+
+
+</LinearLayout>

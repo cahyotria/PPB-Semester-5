@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:background="#2178db"
+        android:fontFamily="@font/pbold"
+        android:textSize="18sp"
+        android:paddingTop="5dp"
+        android:paddingLeft="15dp"
+        android:paddingBottom="5dp"
+        android:textColor="#ffffff"
+        />
+
+    <TextView
+        android:id="@+id/textSubTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textTitle"
+        android:fontFamily="@font/pmedium"
+        android:textSize="14sp"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="@string/SubTitle"
+        android:textColor="#000000"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/image_the_hobbit"
+        android:layout_below="@id/textSubTitle"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginTop="10dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/preguler"
+            android:text="@string/Artikel"
+            android:textAlignment="gravity"
+            />
+    </ScrollView>
+
+
+</RelativeLayout>

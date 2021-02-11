@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hitung Bangunan</string>
+    <string name="title">Menu Hitung Bangunan</string>
+    <string name="persegi">Persegi</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="kubus">Kubus</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="sisiPersegi">Sisi Persegi</string>
+    <string name="sisiKubus">Sisi Kubus</string>
+    <string name="jarijari">Jari Jari</string>
+    <string name="luas">Luas</string>
+    <string name="keliling">Keliling</string>
+</resources>

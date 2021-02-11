@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">04 - Scrolling Text</string>
+    <string name="Title">Sinopsis Film The Hobbit</string>
+    <string name="SubTitle"><i>The Hobbit: An Unexpected Journey</i></string>
+    <string name="Artikel">
+        Pada hari ulang tahun Bilbo Baggins ke-111, Bilbo mencatat petualangan terakhirnya untuk Frodo Baggins, dan menolak membiarkan Frodo membacanya sebelum catatan tersebut selesai.
+        Enam puluh tahun sebelumnya, Bilbo, seorang Hobbit muda yang selalu ingin tahu dipancing agar mengadakan pesta untuk Thorin dan para kurcacinya.
+        Bilbo diundang bertualang bersama penyihir Gandalf si Abu-Abu dan para Kurcaci yang ingin merebut kembali harta karun yang dicuri dari kerabat mereka di Pegunungan Sunyi oleh naga Smaug.
+        Gandalf memperlihatkan peta yang menunjukkan pintu rahasia ke pegunungan itu dan meminta Bilbo menjadi "pencuri" dalam ekspedisi ini.
+        Petualangan ini membawa mereka dari rumah Bilbo di Shire ke alam liar, tempat Gandalf menyelamatkan gerombolan ini dari troll gunung.
+        Mereka bertemu Radagast si Coklat yang memberitahu mereka tentang makhluk aneh yang ia jumpai di Dol Guldur.
+        Gandalf membawa mereka ke daerah Peri di Rivendell, tempat Elrond mengungkapkan rahasia lain dari peta tersebut. Gandalf berbicara dengan Elrond, Galadriel, dan Saruman si Putih mengenai makhluk yang Radagast jumpai dan sedikit menduga bahwa Necromancer tadi adalah Sauron, penguasa gelap.
+        Melintasi Pegunungan Kabut, mereka ditangkap para goblin dan dibawa jauh ke bawah tanah. Bilbo terpisah dari gerombolan tersebut dan bertemu Gollum, yang tidak sengaja menjatuhkan cincin misterius yang diambil Bilbo. Gollum mengancam akan memakan Bilbo, namun mereka setuju bermain teka-teki. Mereka setuju jika Bilbo menang, ia diizinkan kabur, tetapi jika Bilbo kalah, ia akan dimakan.
+        Setelah Bilbo menang, Gollum sadar bahwa cincinnya hilang dan mengejar Bilbo yang kemudian menemukan kekuatan menghilang dari cincin tersebut dan kabur.
+        </string>
+</resources>

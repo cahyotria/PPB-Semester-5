@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:fontFamily="@font/pbold"
+        android:background="#2a9d8f"
+        android:textSize="24dp"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+    >
+        <Button
+            android:id="@+id/persegi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/persegi"
+            android:fontFamily="@font/pmedium"
+            android:textSize="18dp"
+            android:background="#e9c46a"
+            android:onClick="showPersegi"
+            />
+
+        <Button
+            android:id="@+id/segitiga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/segitiga"
+            android:fontFamily="@font/pmedium"
+            android:layout_below="@id/persegi"
+            android:textSize="18dp"
+            android:background="#f4a261"
+            android:onClick="showSegitiga"
+            />
+
+        <Button
+            android:id="@+id/kubus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/kubus"
+            android:fontFamily="@font/pmedium"
+            android:layout_below="@id/segitiga"
+            android:textSize="18dp"
+            android:background="#e9c46a"
+            android:onClick="showKubus"
+            />
+
+        <Button
+            android:id="@+id/balok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/lingkaran"
+            android:fontFamily="@font/pmedium"
+            android:layout_below="@id/kubus"
+            android:textSize="18dp"
+            android:background="#f4a261"
+            android:onClick="showLingkaran"
+            />
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

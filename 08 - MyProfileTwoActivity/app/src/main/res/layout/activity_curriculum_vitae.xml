@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    tools:context=".CurriculumVitae">
+
+    <Button
+        android:id="@+id/header_cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail CV"
+        android:background="#e67f25"
+        android:fontFamily="@font/pmedium"
+        android:textSize="18dp"
+        android:textColor="#fff"
+        />
+
+    <TextView
+        android:id="@+id/cv_kerja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengalaman Kerja"
+        android:fontFamily="@font/pmedium"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/header_cv"
+        />
+</RelativeLayout>

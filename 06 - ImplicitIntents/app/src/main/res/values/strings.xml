@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">06 - Implicit Intents</string>
+    <string name="editText_uri">http:developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+    <string name="editText_loc">Tugu Muda</string>
+    <string name="button_loc">Open Location</string>
+    <string name="editText_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+</resources>

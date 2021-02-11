@@ -1,0 +1,4 @@
+<resources>
+<string name="app_name">02 - Hello Toast</string>
+<string name="toast">Selamat Datang di Toast</string>
+</resources>

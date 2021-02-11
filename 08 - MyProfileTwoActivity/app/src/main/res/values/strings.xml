@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">08 - My Profile Two Activity</string>
+    <string name="textNIM">NIM : A11.2018.11469</string>
+    <string name="textNama">Nama : Fauzan Agra Pracasta</string>
+    <string name="textAlamat">Alamat : JL Candi Mutiara Timur I/1594</string>
+    <string name="textTelp">Telepon : 0812-2561-0485</string>
+    <string name="textEmail">Email : fauzanagra1@gmail.com</string>
+</resources>

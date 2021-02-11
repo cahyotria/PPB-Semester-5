@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    >
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pbold"
+        android:text="@string/app_name"
+        android:background="#90BEDE"
+        android:textSize="24dp"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        >
+
+        <TextView
+            android:id="@+id/textNIM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NIM"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editNIM"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/textNIM"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/textNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNIM"
+            android:text="NAMA"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:padding="10dp"
+            />
+
+        <EditText
+            android:id="@+id/editNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNIM"
+            android:layout_toRightOf="@+id/textNama"
+            android:layout_marginLeft="33dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            />
+
+        <!--    Nilai Tugas    -->
+        <TextView
+            android:id="@+id/textNTugas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNama"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="N.TUGAS"
+        />
+
+        <EditText
+            android:id="@+id/editNTugas"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNama"
+            android:layout_toRightOf="@+id/textNTugas"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:inputType="numberSigned|numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/text30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/editNTugas"
+            android:layout_below="@id/textNama"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="30%"
+            />
+
+        <EditText
+            android:id="@+id/finalNTugas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNama"
+            android:layout_toRightOf="@+id/text30"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            android:text="0"
+            />
+
+        <!--   END Nilai Tugas    -->
+
+        <!--    Nilai UTS   -->
+
+        <TextView
+            android:id="@+id/textNUTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNTugas"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="N.UTS"
+            />
+
+        <EditText
+            android:id="@+id/editNUTS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNTugas"
+            android:layout_toRightOf="@+id/textNUTS"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:inputType="numberSigned|numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/text35UTS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/editNUTS"
+            android:layout_below="@id/textNTugas"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="35%"
+            />
+
+        <EditText
+            android:id="@+id/finalNUTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNTugas"
+            android:layout_toRightOf="@+id/text35UTS"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            android:text="0"
+            />
+
+        <!--    END Nilai UTS    -->
+
+        <!--    Nilai UAS    -->
+
+        <TextView
+            android:id="@+id/textNUAS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNUTS"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="N.UAS"
+            />
+
+        <EditText
+            android:id="@+id/editNUAS"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNUTS"
+            android:layout_toRightOf="@+id/textNUAS"
+            android:layout_marginLeft="35dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:inputType="numberSigned|numberDecimal"
+            />
+
+        <TextView
+            android:id="@+id/text35UAS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/editNUAS"
+            android:layout_below="@id/textNUTS"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="35%"
+            />
+
+        <EditText
+            android:id="@+id/finalNUAS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNUTS"
+            android:layout_toRightOf="@+id/text35UAS"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            android:text="0"
+            />
+
+        <!--    END Nilai UAS    -->
+
+        <!--   Nilai Akhir  -->
+
+        <TextView
+            android:id="@+id/textNAkhir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNUAS"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="N.AKHIR"
+            />
+
+        <EditText
+            android:id="@+id/editNAkhir"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNUAS"
+            android:layout_toRightOf="@+id/textNAkhir"
+            android:layout_marginLeft="20dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            />
+
+        <!--   END Nilai Akhir  -->
+
+        <!--   Nilai Predikat  -->
+
+        <TextView
+            android:id="@+id/textNHuruf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNAkhir"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="N.HURUF"
+            />
+
+        <EditText
+            android:id="@+id/editNHuruf"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNAkhir"
+            android:layout_toRightOf="@+id/textNHuruf"
+            android:layout_marginLeft="18dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            />
+
+        <!--   END Nilai Predikat  -->
+
+        <!--    Predikat    -->
+
+        <TextView
+            android:id="@+id/textPredikat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textNHuruf"
+            android:padding="10dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="15dp"
+            android:text="PREDIKAT"
+            />
+
+        <EditText
+            android:id="@+id/editPredikat"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textNHuruf"
+            android:layout_toRightOf="@+id/textPredikat"
+            android:layout_marginLeft="13dp"
+            android:fontFamily="@font/preguler"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:editable="false"
+            />
+
+        <!--   END Predikat -->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Hitung"
+            android:fontFamily="@font/preguler"
+            android:onClick="calHitung"
+            />
+
+    </RelativeLayout>
+
+</LinearLayout>

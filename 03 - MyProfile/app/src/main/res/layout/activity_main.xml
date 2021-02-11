@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e67f25"
+        android:fontFamily="@font/pmedium"
+        android:text="PROFILE"
+        android:textSize="18dp"
+        android:textColor="#fff" />
+
+    <ImageView
+        android:id="@+id/imageProfile"
+        android:layout_width="match_parent"
+        android:layout_height="226dp"
+        android:layout_below="@+id/btnProfile"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/textNim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageProfile"
+        android:layout_marginTop="30dp"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/pmedium"
+        android:text="@string/textNIM" />
+
+    <TextView
+        android:id="@+id/textNama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNim"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/pmedium"
+        android:text="@string/textNama" />
+
+    <TextView
+        android:id="@+id/textAlamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textNama"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/pmedium"
+        android:text="@string/textAlamat" />
+
+    <TextView
+        android:id="@+id/textTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textAlamat"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/pmedium"
+        android:text="@string/textTelp" />
+
+    <TextView
+        android:id="@+id/textEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textTelp"
+        android:paddingLeft="20dp"
+        android:fontFamily="@font/pmedium"
+        android:text="@string/textEmail" />
+
+
+
+
+</RelativeLayout>

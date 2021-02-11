@@ -1,0 +1,95 @@
+<resources>
+    <string name="app_name">ZANTECH.ID</string>
+    <string name="detailProduk1">
+        Spesifikasi :\n
+        - Supports 9th / 8th Gen Intel® Core™ / Pentium® Gold / Celeron® processors for LGA 1151 socket\n
+        - Supports DDR4 Memory, up to 2666MHz\n
+        - Audio Boost: Reward your ears with studio grade sound quality.\n
+        - Turbo M.2: Running at PCI-E Gen3 x4 maximizes performance for NVMe based SSDs.\n
+        - EZ Debug LED: Easiest way to troubleshoot.\n
+        - PCI-E Steel Armor: Protecting VGA cards against bending and EMI for better performance, stability and strength.\n
+        - X-Boost: Software that auto-detects and allows you to boost the performance of any storage, Optane or USB device.\n
+        - Core Boost: With premium layout and fully digital power design to support more cores and provide better performance.\n
+    </string>
+
+    <string name="detailProduk2">
+        Spesifikasi :\n
+        - Supports 3rd Gen AMD Ryzen™ Threadripper™ Processors\n
+        - 16 Power Phase Design, 90A Dr. MOS and Power Choke\n
+        - XXL Aluminum Alloy Heatsink and Heatpipe Design\n
+        - Supports DDR4 4666+(OC)\n
+        - 3 PCIe 4.0 x16, 1 PCIe 4.0 x1\n
+        - NVIDIA® NVLINK™, 3-Way SLI™, AMD 3-Way CrossFireX™\n
+        - 8 SATA3, 1 Hyper M.2 (PCIe Gen4 x4 and SATA3), 1 Hyper M.2 (PCIe Gen4 x4)\n
+        - 1 Rear USB 3.2 Gen2 x2 20Gb/s Type-C\n
+        - 3 USB 3.2 Gen2 (1 Front Type-C, 2 Rear)\n
+        - 8 USB 3.2 Gen1 (4 Front, 4 Rear)\n
+        - 7.1 CH HD Audio (Realtek ALC4050H+ALC1220), Supports Purity Sound™ 4 and DTS Connect\n
+        - Realtek 2.5G LAN, Intel® Gigabit LAN\n
+        - Intel® Wi-Fi 6 802.11ax (2.4Gbps) + BT 5.0\n
+    </string>
+
+    <string name="detailProduk3">
+        Spesifikasi :\n
+        - Supports 10th Gen Intel® Core™ Processors (Socket 1200)\n
+        - 9 Power Phase Design\n
+        - Supports DDR4 2933MHz\n
+        - 2 PCIe 3.0 x16, 1 PCIe 3.0 x1, 1 M.2 (Key E) for WiFi\n
+        - AMD Quad CrossFireX™ and CrossFireX™\n
+        - Graphics Output Options : HDMI, D-Sub, DisplayPort\n
+        - 7.1 CH HD Audio (Realtek ALC1200 Audio Codec), Nahimic Audio\n
+        - 6 SATA3, 1 Ultra M.2 (PCIe Gen3 x4 and SATA3), 1 Ultra M.2 (PCIe Gen3 x4)\n
+        - 7 USB 3.2 Gen1 (2 Front, 4 Rear, 1 Rear Type-C)\n
+        - Intel® Gigabit LAN\n
+        - Polychrome SYNC\n
+    </string>
+    <string name="detailProduk4">
+        Spesifikasi :\n
+        - Supports 9th and 8th Gen Intel® Core™ processors (Socket 1151)\n
+        - Supports DDR4 2666 MHz\n
+        - 2 PCIe 3.0 x16, 1 PCIe 3.0 x1, 1 M.2 Key E for WiFi\n
+        - AMD Quad CrossFireX™\n
+        - Graphics Output Options: HDMI, Display Port\n
+        - 7.1 CH HD Audio (Realtek ALC1200 Audio Codec), Supports DTS Connect\n
+        - 6 SATA3, 1 Ultra M.2 (PCIe Gen3 x4), 1 Ultra M.2 (PCIe Gen3 x4 and SATA3)\n
+        - 7 USB 3.1 Gen1 (2 Front, 4 Rear, 1 Type-C)\n
+        - Intel® Gigabit LAN\n
+        - ASRock Polychrome SYNC\n
+    </string>
+    <string name="detailProduk5">
+        Spesifikasi :\n
+        - ASUS OptiMem: Careful routing of traces and vias to preserve signal integrity for improved memory overclocking\n
+        - Exclusive DTS Custom audio: Delivers positional cues to stereo headphones, helping you to pinpoint enemies and action\n
+        - TUF Protection: SafeSlot, ESD Guards, DDR4 overvoltage protection, Digi+ VRM, and stainless-steel back I/O for long-term reliability\n
+        - TUF Components: TUF LANGuard, TUF Chokes, TUF Capacitors, and TUF MOSFETs for maximum durability\n
+        - Fan Xpert 4 Core: Ensures every fan achieves the best balance of cooling performance and acoustics\n
+        - Onboard M.2 heatsink: Cools your M.2 drive, delivering consistent storage performance and enhanced reliability.\n
+        - Aura Sync RGB: Synchronize LED lighting with a vast portfolio of compatible PC gear.\n
+    </string>
+    <string name="detailProduk6">
+        Spesifikasi :\n
+        • RDNA architecture \n
+        • Advanced 7nm GPU\n
+        • PCI Express 4.0 Support\n
+        • Radeon Image Sharpening\n
+        • FidelityFX\n
+        • Radeon Anti-Lag\n
+        • Microsoft® Windows® 10 Support\n
+        • Microsoft® DirectX™ 12 Support\n
+        • 7nm Technology\n
+        • AMD Virtual Super Resolution (VSR)\n
+        • AMD Relive\n
+        • AMD FreeSync 2 HDR\n
+        • AMD Frame Rate Target Control (FRTC)\n
+        • AMD Eyefinity multi-display technology\n
+        • AMD Radeon Adrenalin Software 2019\n
+        • AMD WattMan\n
+        • HDMI 2.0b\n
+        • Displayport 1.4 w/ DSC\n
+        • Dolby TrueHD and DTS-HD Master Audio Support\n
+        • Up to 6 displays supported, (may require the use of MST Hubs)\n
+        • OpenGL 4.5 Support\n
+        • OpenCL Support\n
+    </string>
+
+</resources>

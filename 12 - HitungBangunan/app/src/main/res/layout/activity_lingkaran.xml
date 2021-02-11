@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".Lingkaran">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lingkaran"
+        android:fontFamily="@font/pbold"
+        android:textSize="20dp"
+        android:background="#f4a261"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/pmedium"
+        android:textSize="17dp"
+        android:paddingLeft="10dp"
+        android:text="@string/jarijari"
+        />
+
+    <EditText
+        android:id="@+id/editTextJariJari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:paddingLeft="10dp"
+        />
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <Button
+            android:id="@+id/btnLuas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/luas"
+            android:onClick="hitungLuas"
+            />
+
+        <Button
+            android:id="@+id/btnKeliling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/btnLuas"
+            android:text="@string/keliling"
+            android:onClick="hitungKeliling"
+            />
+
+        <TextView
+            android:id="@+id/textHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnLuas"
+            android:text="Hasil"
+            android:textSize="17dp"
+            android:padding="5dp"
+            android:fontFamily="@font/pmedium"
+            />
+
+        <TextView
+            android:id="@+id/HasilLingkaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textHasil"
+            android:layout_below="@+id/btnLuas"
+            android:padding="5dp"
+            android:fontFamily="@font/pmedium"
+            android:textSize="17dp"
+            android:layout_marginLeft="5dp"
+            android:text="0"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

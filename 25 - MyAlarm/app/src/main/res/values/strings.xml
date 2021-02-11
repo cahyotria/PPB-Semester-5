@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAlarm</string>
+    <string name="label_alarm">Alarm Kuliah</string>
+    <string name="sub_label_alarm">Set Alarm Sebelum 30 Menit Dimulai</string>
+</resources>

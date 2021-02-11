@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="padding_reguler">10dp</dimen>
+    <dimen name="title">24sp</dimen>
+    <dimen name="subTitle">16dp</dimen>
+    <dimen name="reguler">12dp</dimen>
+    <dimen name="imageSize">130dp</dimen>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="8dp"
+    android:orientation="vertical"
+    android:id="@+id/cardView"
+    android:backgroundTint="@color/teal_700"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:padding="10dp"
+            android:layout_marginLeft="20dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_NamaProduk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ASUS RTX 3090 12GB"
+                android:textStyle="bold"
+                android:padding="2dp"
+                android:fontFamily="@font/pregular"
+
+                android:textSize="15dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_Harga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rp. 15.800.000"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pregular"
+                android:textSize="12dp"
+                />
+
+            <TextView
+                android:id="@+id/tv_waktu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="19 January 2020 - 13:59"
+                android:padding="2dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/pregular"
+                android:textSize="12dp"
+                />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

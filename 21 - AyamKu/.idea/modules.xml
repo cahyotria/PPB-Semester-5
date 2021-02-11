@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/21 - AyamKu-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/21 - AyamKu-app.iml" group="21 - AyamKu/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/21_-_AyamKu.iml" filepath="$PROJECT_DIR$/.idea/modules/21_-_AyamKu.iml" group="21_-_AyamKu" />
+      <module fileurl="file://$PROJECT_DIR$/MenuMakan.iml" filepath="$PROJECT_DIR$/MenuMakan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculator"
+        android:fontFamily="@font/psbold"
+        android:textSize="28dp"
+        android:padding="5dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#fff7f7"
+        android:background="#d96a11"
+        />
+
+    <TextView
+        android:id="@+id/textEdit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnTitle"
+        android:text="Angka 1"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/pmedium"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editAngka1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/textEdit1"
+        android:inputType="numberDecimal|numberSigned"
+        />
+
+    <TextView
+        android:id="@+id/textEdit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editAngka1"
+        android:text="Angka 2"
+        android:paddingLeft="10dp"
+        android:fontFamily="@font/pmedium"
+        android:textColor="#000000"
+        />
+
+    <EditText
+        android:id="@+id/editAngka2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:layout_below="@id/textEdit2"
+        android:inputType="numberDecimal|numberSigned"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btnTambah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:fontFamily="@font/pmedium"
+            android:textSize="13dp"
+            android:onClick="onTambah"
+            />
+
+        <Button
+            android:id="@+id/btnKurang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sub"
+            android:layout_toRightOf="@id/btnTambah"
+            android:layout_toEndOf="@id/btnTambah"
+            android:fontFamily="@font/pmedium"
+            android:textSize="13dp"
+            android:onClick="onKurang"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/btnBagi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="div"
+            android:fontFamily="@font/pmedium"
+            android:textSize="13dp"
+            android:onClick="onBagi"
+            />
+
+        <Button
+            android:id="@+id/btnKali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mul"
+            android:layout_toRightOf="@id/btnBagi"
+            android:layout_toEndOf="@id/btnBagi"
+            android:fontFamily="@font/pmedium"
+            android:textSize="13dp"
+            android:onClick="onKali"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        <TextView
+            android:id="@+id/textHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:fontFamily="@font/pmedium"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/textHasilCal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/textHasil"
+            android:layout_marginLeft="20dp"
+            android:paddingLeft="10dp"
+            android:text="0"
+            android:fontFamily="@font/pmedium"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

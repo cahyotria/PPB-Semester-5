@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:background="#3E93CC"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/form_input"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/pmedium"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+
+        <EditText
+            android:id="@+id/ed_KodeBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/kode_barang"
+            android:textSize="12dp"
+            />
+        <EditText
+            android:id="@+id/ed_NamaBarang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/nama_barang"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            />
+        <EditText
+            android:id="@+id/ed_Satuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/satuan"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            />
+        <EditText
+            android:id="@+id/ed_HargaBeli"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/harga_beli"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            />
+        <EditText
+            android:id="@+id/ed_HargaJual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:hint="@string/harga_jual"
+            android:layout_marginTop="5dp"
+            android:textSize="12dp"
+            />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <EditText
+                android:id="@+id/ed_Stok"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/pregular"
+                android:hint="@string/stok"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:textSize="12dp"
+                />
+
+            <EditText
+                android:id="@+id/ed_StokMin"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/ed_Stok"
+                android:fontFamily="@font/pregular"
+                android:hint="@string/stokmin"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:textSize="12dp"
+                />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/btn_Simpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/simpan"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>

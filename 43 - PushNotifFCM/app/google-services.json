@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "784324929632",
+    "project_id": "push-notif-fcm-9078c",
+    "storage_bucket": "push-notif-fcm-9078c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784324929632:android:39972a1890ef676003bb05",
+        "android_client_info": {
+          "package_name": "com.example.pushnotiffcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784324929632-06fnuklm6s66a3q1p5adfns98pv1balp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pushnotiffcm",
+            "certificate_hash": "621003fc1b50ee94c53a3ed55bda7d6084b908e7"
+          }
+        },
+        {
+          "client_id": "784324929632-ib9d3sr3rh2t6tl12ed8e4o2v15fntfc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrGeRAItQfkjAUMe__fSv6Gn1JpB6DGyw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784324929632-ib9d3sr3rh2t6tl12ed8e4o2v15fntfc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
